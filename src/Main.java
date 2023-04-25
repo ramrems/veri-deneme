@@ -24,6 +24,7 @@ public class Main {
         Courses statics = new Courses( "IST3045","Mühendisler için İstatistik", 4);
         Courses Micro = new Courses( "BLM2008","Mikroişlemciler", 4);
         Courses NumericAnalyz = new Courses( "MAT2086","Sayısal Analiz", 4);
+        Courses DialogueInterpreting = new Courses( "IMT2128","Special Topics in Translation", 8);
 
         liste.initialize(Math1);
 
@@ -47,6 +48,8 @@ public class Main {
         liste.add(ElectroCircuit);
         liste.add(Micro);
         liste.add(NumericAnalyz);
+        liste.add(DialogueInterpreting);
+
 
 
         liste.goster();
